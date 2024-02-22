@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit.css">
+    <title>AGCB</title>
+</head>
+<body>
+    <h1 id="titre">Application de gestion de compte bancaire</h1>
+    <div class="wrapper">
+        <nav class="side-menu">
+            <ul class="menu">
+                <li><a href="#nouveau" id="newLink">Nouveau</a></li>
+                <li>
+                    <form id="fileForm">
+                        <input type="file" id="fileInput" accept=".html">
+                        <button type="submit">Ouvrir le Fichier</button>
+                    </form>
+                </li>
+                <!-- <li><a href="#sauvegarder" id="saveLink">Sauvegarder</a></li> --> 
+            </ul>
+        </nav>
+        <main class="content">
+            <!-- Contenu de la page ici -->
+            <ul class="sauvegarde">
+                <li id="recentDocuments"></li>
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
